@@ -1,0 +1,29 @@
+nav{
+    background-image: black;
+    margin-bottom: 10px;
+    height: 50px;
+    width:100vw;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+}
+
+nav li{
+    float:left;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+
+main{
+    display:flex;
+    height:90vh;
+}
+#sidebar{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

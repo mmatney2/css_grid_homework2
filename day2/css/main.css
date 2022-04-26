@@ -1,0 +1,93 @@
+:root{
+    --dark: #402039;
+    --green: #68d8d6;
+    --red: #ec4e20;
+}
+body{
+    color:var(--green);
+}
+main{
+    background-color: var(--dark);
+    height: 90vh;
+}
+footer, nav{
+    padding: 10px;
+    background-color: var(--red);
+}
+nav{
+    border-bottom: 1px solid var(--green);
+
+}
+footer{
+    border-top: 1px solid var(--green);
+    text-align: center;
+}
+img{
+    width: 150px;
+    height:  150px;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: .7;
+    float: left;
+    margin-right: 10px;
+
+}
+img:hover{
+    opacity: 1;
+}
+
+h1{
+    padding: 25px 50px;
+    margin-top: 0px; 
+    text-shadow: 2px 2px var(--red);
+}
+h4{
+    color: var(--red);
+    text-align: justify;
+    height: 100px;
+    margin-right    : 10px;
+
+}
+article{
+    float: left;
+    height: 200px;
+    width: 300px;
+    background-color: var(--green);
+    box-shadow: 5px 5px var(--red);
+    margin: 50px;
+    padding-top: 100px;
+    transform: rotate(.02turn);
+}
+
+article:hover{
+    transform: none;
+}
+nav > a {
+    color: var(--green);
+    font-weight:bold;
+    text-decoration: none;
+    padding: 5px 10px 11px;
+    margin: 10px;
+    background-color: var(--red);
+    border: 1px solid var(--green);
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+}
+
+nav > a:hover{
+    background-color: var(--green);
+    color: var(--red);
+}
+
+a[href="#"]{
+    text-decoration: var(--green) wavy underline;
+
+}
+
+header:hover + main article{
+    opacity: .5;
+
+}
+header:hover + main article>*{
+    display: none;
+}
